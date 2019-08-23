@@ -12,12 +12,12 @@ end
 
 def current_player(board)
 
-x = turn_count(board)
+  x = turn_count(board)
 
-if x%2 == 0
-  return "X"
-else
-  return "O"
-end
+  if x%2 == 0
+    return "X"
+  else
+    return "O"
+  end
 
 end
