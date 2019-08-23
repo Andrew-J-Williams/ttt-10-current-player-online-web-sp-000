@@ -9,4 +9,4 @@ def turn_count(board)
   counter #Calls the counter with the final total of items. Very important, otherwise our code does NOTHING.
 end
 
-def 
+def current_player(board)
