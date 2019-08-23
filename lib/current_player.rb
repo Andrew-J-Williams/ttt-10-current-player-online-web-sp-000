@@ -12,7 +12,7 @@ end
 
 def current_player(board)
 
-turn_count(board)
+x = turn_count(board)
 
 
 end
