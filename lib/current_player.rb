@@ -3,8 +3,8 @@ def turn_count(board)
 
   board.each do |turn| #Takes the values from the board array, plugs them into the local variable 'turn'
     if turn == "X" || turn == "O" #Checks to see if the space in the array is occupied by either 'X' or 'O'
-      counter += 1
+      counter += 1 #Everytime we encounter the value, we add 1 to the counter
     end
   end
-  counter #Calls the counter
+  counter #Calls the counter with the final total of items
 end
