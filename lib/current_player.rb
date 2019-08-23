@@ -12,7 +12,7 @@ end
 
 def current_player(board)
 
-  turn_number = turn_count(board)
+  turn_number = turn_count(board) #First, we create a variable and set it equal to the result of our 'turn_count' method
 
   if turn_number.even?
     return "X"
