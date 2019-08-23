@@ -1,7 +1,7 @@
 def turn_count(board)
 
 board.each do |turn|
-  turn += 1
+  puts "#{turn.count}"
 end
 
 end
