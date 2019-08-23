@@ -12,12 +12,13 @@ end
 
 def current_player(board)
 
-  turn_number = turn_count(board) #First, we create a variable and set it equal to the result of our 'turn_count' method
+  turn_number = turn_count(board) #First, we create a variable and set it equal to the result of our 'turn_count' method.
 
-  if turn_number.even?
-    return "X"
+  #Then, create an 'if' statement that checks to see if the value of that variable is even or odd.
+  if turn_number.even? #Alternatively, it could've been written 'if turn_number % 2 == 0'.
+    return "X" #All even numbers will return 'X'
   else
-    return "O"
+    return "O" #If the value is odd, an 'O' will be returned instead.
   end
 
 end
