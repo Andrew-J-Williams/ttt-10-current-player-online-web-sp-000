@@ -6,5 +6,5 @@ def turn_count(board)
       counter += 1 #Everytime we encounter the value, we add 1 to the counter
     end
   end
-  counter #Calls the counter with the final total of items
+  counter #Calls the counter with the final total of items. Very important, otherwise our code does NOTHING. 
 end
